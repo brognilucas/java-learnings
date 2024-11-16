@@ -7,9 +7,9 @@ public class Pizza {
     private double price;
     private List<String> ingredients;
 
-    public Pizza(PizzaFlavors flavor, double price) {
+    public Pizza(PizzaFlavors flavor) {
         this.flavor = flavor;
-        this.price = price;
+        this.price = flavor.getPrice();
         this.ingredients = flavor.getIngredients();
     }
 

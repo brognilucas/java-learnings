@@ -15,7 +15,7 @@ public class Pizzeria {
     }
 
     public void preparePizza(PizzaFlavors pizzaFlavor) {
-        var pizza = new Pizza(pizzaFlavor, 8.90);
+        var pizza = new Pizza(pizzaFlavor);
         var pizzasInProduction = pizzas.get(PizzaStatus.IN_PRODUCTION);
 
         pizzasInProduction.add(pizza);
