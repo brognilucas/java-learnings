@@ -1,3 +1,5 @@
+package dev.brogni.pizzeria;
+
 import java.util.List;
 
 public class Pizza {
