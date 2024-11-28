@@ -1,11 +1,14 @@
-package dev.brogni.pizzeria;
+package test.dev.brogni.pizzeria;
 
+import main.dev.brogni.pizzeria.PizzaFlavors;
+import main.dev.brogni.pizzeria.PizzaStatus;
+import main.dev.brogni.pizzeria.Pizzeria;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PizzeriaTester {
+public class PizzeriaTest {
 
     @Test
     @DisplayName("Should be able to prepare a pizza")

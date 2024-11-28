@@ -1,4 +1,4 @@
-package dev.brogni.pizzeria;
+package main.dev.brogni.pizzeria;
 
 import java.util.List;
 
