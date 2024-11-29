@@ -16,13 +16,11 @@ public class PizzeriaTest {
         var pizzeria = new Pizzeria();
 
         pizzeria.preparePizza(PizzaFlavors.MARGHERITA);
-
         var pizzas = pizzeria.getPizzasByStatus(PizzaStatus.IN_PRODUCTION);
 
         assertEquals(pizzas.size(), 1);
-
-        for (var pizza: pizzas) {
-            assertEquals(pizza.getFlavor(), PizzaFlavors.MARGHERITA);
-        }
+        var pizza = pizzas.getFirst();
+        assertEquals(pizza.getFlavor(), PizzaFlavors.MARGHERITA);
     }
 }
+
